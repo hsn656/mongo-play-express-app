@@ -91,8 +91,6 @@ const getR_R = async (targetId) => {
         connectFromField: 'digitalAssetId',
         connectToField: 'digitalAssetId',
         as: 'relation',
-        depthField: 'depth',
-        maxDepth: 0,
         restrictSearchWithMatch: {
           targetId: { $ne: targetId },
           type: { $ne: 'is' }
@@ -106,7 +104,13 @@ const getR_R = async (targetId) => {
       $group: {
         _id: '$relation.targetId',
         relations: {
-          $push: '$$ROOT'
+          $push: {
+            targetId,
+            digitalAssetId: '$digitalAssetId',
+            type: '$type',
+            relatedTarget: '$relation.targetId',
+            relatedTargetType: '$relation.type',
+          }
         },
         count: {
           $sum: 1
@@ -117,10 +121,10 @@ const getR_R = async (targetId) => {
       $sort: { count: -1 }
     },
     {
-      $project: {
-        targetId,
-        relations: '$relations'
-      }
+      $unwind: "$relations"
+    },
+    {
+      $replaceRoot: { newRoot: "$relations" }
     },
     // {
     //     $skip: 1
@@ -162,7 +166,13 @@ const getDN_R = async (targetId) => {
       $group: {
         _id: '$relation.targetId',
         relations: {
-          $push: '$$ROOT'
+          $push: {
+            targetId,
+            digitalAssetId: '$digitalAssetId',
+            type: '$type',
+            relatedTarget: '$relation.targetId',
+            relatedTargetType: '$relation.type',
+          }
         },
         count: {
           $sum: 1
@@ -219,7 +229,13 @@ const getR_DN = async (targetId) => {
       $group: {
         _id: '$relation.targetId',
         relations: {
-          $push: '$$ROOT'
+          $push: {
+            targetId,
+            digitalAssetId: '$digitalAssetId',
+            type: '$type',
+            relatedTarget: '$relation.targetId',
+            relatedTargetType: '$relation.type',
+          }
         },
         count: {
           $sum: 1
