@@ -1,0 +1,196 @@
+{
+    "recognized_persons": [{
+        "recognized": true,
+        "people": "64b7a120afe041ba6f387e50",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/7vftwq88v7.jpeg",
+        "detected_images": [{
+            "media": "64b7a236fe83208d732073d8",
+            "type": "image",
+            "bbox": [55, 20, 152, 159],
+            "score": -1
+        }, {
+            "media": "64b7a236fe83208d732073d9",
+            "type": "image",
+            "bbox": [48, 42, 131, 161],
+            "score": -1
+        }, {
+            "media": "64b7a236fe83208d732073da",
+            "type": "image",
+            "bbox": [50, 27, 119, 126],
+            "score": -1
+        }],
+        "detected_videos": []
+    }, {
+        "recognized": true,
+        "people": "64b7a136afe041ba6f387e58",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/j931meqwsk.jpeg",
+        "detected_images": [{
+            "media": "64b7a236fe83208d732073dc",
+            "type": "image",
+            "bbox": [47, 54, 123, 164],
+            "score": -1
+        }],
+        "detected_videos": []
+    }, {
+        "recognized": true,
+        "people": "64b7a111afe041ba6f387e48",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/q7tq0p026r.jpeg",
+        "detected_images": [{
+            "media": "64b7a236fe83208d732073db",
+            "type": "image",
+            "bbox": [482, 223, 1107, 1125],
+            "score": -1
+        }],
+        "detected_videos": []
+    }],
+    "unknown_persons": [{
+        "recognized": false,
+        "people": "Unknown_1",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/9wpukil2i0.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [0, 39.67]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_2",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/jtjosp6fl0.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [0, 32.01]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_3",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/vtdsrcmsj2.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [0, 39.67]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_4",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/4bqaryhihj.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [0, 39.67]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_5",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/jwy3s1s4e3.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [0, 37.34]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_6",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/ma7kkipl0c.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [1.67, 14],
+                [17.67, 22.67],
+                [26.67, 32.67],
+                [37.67, 39.34]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_7",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/zbjmk3ids6.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [7.33, 8.34]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_8",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/kxflbarq80.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [10, 11]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_9",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/3r1j2j2nf4.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [19, 22],
+                [28.01, 31.67]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_10",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/brijqsouek.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [32.34, 39.01]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_11",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/bjtvw673qt.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [32.34, 34.34]
+            ]
+        }]
+    }, {
+        "recognized": false,
+        "people": "Unknown_12",
+        "sample_picture": "./sessions/64b7a20afe83208d732073d4/assets/t2eicncna6.jpeg",
+        "detected_images": [],
+        "detected_videos": [{
+            "media": "64b7a236fe83208d732073d7",
+            "type": "video",
+            "entries": [
+                [29.01, 34.01]
+            ]
+        }]
+    }],
+    "unrecognized_persons": []
+}

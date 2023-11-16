@@ -1,0 +1,566 @@
+{
+    "_id": "64b6b91d4f3a2bd9d258c35a",
+    "name": "req4",
+    "description": "",
+    "deleted": false,
+    "status": "done",
+    "owner": "64b66847b2e1c9bb99de6f61",
+    "createdAt": "2023-07-18T16:09:01.637Z",
+    "updatedAt": "2023-07-18T16:11:02.156Z",
+    "__v": 0,
+    "result": {
+        "recognized_persons": [
+            {
+                "recognized": true,
+                "people": {
+                    "_id": "64b6b96e4f3a2bd9d258c386",
+                    "name": "anglena",
+                    "address": "",
+                    "nationalID": "",
+                    "description": "",
+                    "images": [
+                        {
+                            "_id": "64b6b96e4f3a2bd9d258c381",
+                            "url": "shared_volume/Requests/angelina jolie4.jpeg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:10:22.302Z",
+                            "updatedAt": "2023-07-18T16:10:22.302Z"
+                        },
+                        {
+                            "_id": "64b6b96e4f3a2bd9d258c382",
+                            "url": "shared_volume/Requests/angelina jolie2.jpeg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:10:22.302Z",
+                            "updatedAt": "2023-07-18T16:10:22.302Z"
+                        }
+                    ],
+                    "defaultImage": {
+                        "_id": "64b6b96e4f3a2bd9d258c381",
+                        "url": "shared_volume/Requests/angelina jolie4.jpeg",
+                        "type": "image",
+                        "deleted": false,
+                        "speechToTextResult": [],
+                        "voiceSenseResult": [],
+                        "__v": 0,
+                        "createdAt": "2023-07-18T16:10:22.302Z",
+                        "updatedAt": "2023-07-18T16:10:22.302Z"
+                    },
+                    "groups": [],
+                    "deleted": false,
+                    "createdAt": "2023-07-18T16:10:22.682Z",
+                    "updatedAt": "2023-07-18T16:10:22.682Z",
+                    "__v": 0
+                },
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/xsajb2wvyd.jpeg",
+                "detected_images": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35d",
+                            "url": "shared_volume/Requests/angelina jolie4.jpeg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.764Z",
+                            "updatedAt": "2023-07-18T16:09:28.764Z"
+                        },
+                        "bbox": [
+                            50,
+                            27,
+                            119,
+                            126
+                        ],
+                        "score": -1,
+                        "entries": []
+                    }
+                ],
+                "detected_videos": [],
+                "_id": "64b6b9964f3a2bd9d258c3d4"
+            },
+            {
+                "recognized": true,
+                "people": {
+                    "_id": "64b6b9564f3a2bd9d258c37b",
+                    "name": "ahmed",
+                    "address": "",
+                    "nationalID": "",
+                    "description": "",
+                    "images": [
+                        {
+                            "_id": "64b6b9564f3a2bd9d258c377",
+                            "url": "shared_volume/Requests/office_ahmed.jpg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:58.136Z",
+                            "updatedAt": "2023-07-18T16:09:58.136Z"
+                        }
+                    ],
+                    "defaultImage": {
+                        "_id": "64b6b9564f3a2bd9d258c377",
+                        "url": "shared_volume/Requests/office_ahmed.jpg",
+                        "type": "image",
+                        "deleted": false,
+                        "speechToTextResult": [],
+                        "voiceSenseResult": [],
+                        "__v": 0,
+                        "createdAt": "2023-07-18T16:09:58.136Z",
+                        "updatedAt": "2023-07-18T16:09:58.136Z"
+                    },
+                    "groups": [],
+                    "deleted": false,
+                    "createdAt": "2023-07-18T16:09:58.499Z",
+                    "updatedAt": "2023-07-18T16:09:58.499Z",
+                    "__v": 0
+                },
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/itt8ei0msj.jpeg",
+                "detected_images": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35f",
+                            "url": "shared_volume/Requests/office_ahmed.jpg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [
+                            482,
+                            223,
+                            1107,
+                            1125
+                        ],
+                        "score": -1,
+                        "entries": []
+                    }
+                ],
+                "detected_videos": [],
+                "_id": "64b6b9964f3a2bd9d258c3d5"
+            }
+        ],
+        "unknown_persons": [
+            {
+                "recognized": false,
+                "people": "Unknown_1",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/m40acy62ej.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                0,
+                                39.67
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3d6"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_2",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/3b5jlhkmtz.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                0,
+                                32.01
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3d7"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_3",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/s8vz8xnz7f.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                0,
+                                39.67
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3d8"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_4",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/jwkpfj3tq2.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                0,
+                                39.67
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3d9"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_5",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/8h32sba9wf.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                0,
+                                37.34
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3da"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_6",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/m2v6lcuanx.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                1.67,
+                                14
+                            ],
+                            [
+                                17.67,
+                                22.67
+                            ],
+                            [
+                                26.67,
+                                32.67
+                            ],
+                            [
+                                37.67,
+                                39.34
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3db"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_7",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/e4jpafdc3d.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                7.33,
+                                8.34
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3dc"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_8",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/vdbeuh5965.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                10,
+                                11
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3dd"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_9",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/3ckk28ls8w.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                19,
+                                22
+                            ],
+                            [
+                                28.01,
+                                31.67
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3de"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_10",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/bfk8897q1i.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                32.34,
+                                39.01
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3df"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_11",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/j4jl4t6atj.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                32.34,
+                                34.34
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3e0"
+            },
+            {
+                "recognized": false,
+                "people": "Unknown_12",
+                "sample_picture": "./sessions/64b6b91d4f3a2bd9d258c35a/assets/xjn0j4n16z.jpeg",
+                "detected_images": [],
+                "detected_videos": [
+                    {
+                        "media": {
+                            "_id": "64b6b9384f3a2bd9d258c35e",
+                            "url": "shared_volume/Requests/318296808_551792410094925_5207437167085745026_n.mp4",
+                            "type": "video",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T16:09:28.765Z",
+                            "updatedAt": "2023-07-18T16:09:28.765Z"
+                        },
+                        "bbox": [],
+                        "entries": [
+                            [
+                                29.01,
+                                34.01
+                            ]
+                        ]
+                    }
+                ],
+                "_id": "64b6b9964f3a2bd9d258c3e1"
+            }
+        ],
+        "unrecognized_persons": [
+            {
+                "people": {
+                    "_id": "64b6688bb2e1c9bb99de6f7d",
+                    "name": "person1",
+                    "address": "",
+                    "nationalID": "",
+                    "description": "",
+                    "images": [
+                        {
+                            "_id": "64b6688bb2e1c9bb99de6f7a",
+                            "url": "shared_volume///test_case/img.jpeg",
+                            "type": "image",
+                            "deleted": false,
+                            "speechToTextResult": [],
+                            "voiceSenseResult": [],
+                            "__v": 0,
+                            "createdAt": "2023-07-18T10:25:15.495Z",
+                            "updatedAt": "2023-07-18T10:25:15.495Z"
+                        }
+                    ],
+                    "defaultImage": {
+                        "_id": "64b6688bb2e1c9bb99de6f7a",
+                        "url": "shared_volume///test_case/img.jpeg",
+                        "type": "image",
+                        "deleted": false,
+                        "speechToTextResult": [],
+                        "voiceSenseResult": [],
+                        "__v": 0,
+                        "createdAt": "2023-07-18T10:25:15.495Z",
+                        "updatedAt": "2023-07-18T10:25:15.495Z"
+                    },
+                    "groups": [],
+                    "deleted": false,
+                    "createdAt": "2023-07-18T10:25:15.824Z",
+                    "updatedAt": "2023-07-18T10:25:15.824Z",
+                    "__v": 0
+                },
+                "_id": "64b6b9964f3a2bd9d258c3e2",
+                "detected_images": [],
+                "detected_videos": []
+            }
+        ],
+        "_id": "64b6b9964f3a2bd9d258c3d3"
+    }
+}
